@@ -1,0 +1,89 @@
+# ========================================
+# macOS DFIR Toolkit - Git Ignore Rules
+# ========================================
+
+# macOS System Files
+.DS_Store
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Virtual Environment
+.env
+.env.*
+!.env.example
+.venv/
+env/
+venv/
+
+# Conda
+.conda/
+conda-meta/
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Credentials and Secrets
+*.key
+*.pem
+*.p12
+*.pfx
+secrets/
+credentials/
+
+# DFIR Tools and Packages
+*.exe
+*.dll
+*.pkg
+*.zip
+*.dmg
+tools/
+
+# Windows Forensic Artifacts
+*.pf
+*.evtx
+*.reg
+
+# Network Forensics
+*.pcap
+*.pcapng
+
+# Memory and Disk Forensics
+*.raw
+*.mem
+*.dmp
+*.E01
+*.e01
+*.dd
+*.img
+
+# Forensic Evidence
+evidence/
+Evidence/
+
+# Analysis Output
+output/
+reports/private/
+*.log
+
+# Local AI Models
+*.gguf
+*.safetensors
+*.onnx
+models/
+
+# Temporary Files
+*.tmp
+*.bak
+tmp/
